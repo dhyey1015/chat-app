@@ -8,6 +8,7 @@ const userModel = mongoose.Schema({
     email:{
         type: String,
         required: true,
+        unique: true,
     },
     Password:{
         type: String,
